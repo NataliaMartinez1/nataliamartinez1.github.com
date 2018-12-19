@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>opinion</title>
+  </head>
+  <body>
+    <p><br>
+    </p>
+    <form method="get" action="https://cancerbero01.github.io/disenoWeb/ejerciciosTema3/reOpinion.html">
+      <fieldset> <legend> Tus datos de contacto </legend>
+        <p> <label for="nombre">¿Cuál es tu nombre?</label> <input name="nombre"
+
+            id="nombre" type="text"> </p>
+        <p> <label for="correo">¿Cuál es tu dirección de correo electrónico?</label>
+          <input name="correo" id="correo" type="email"> </p>
+        <p> <label for="numero">Indica la edad</label> <input name="numero" id="numero"
+
+            type="number"> </p>
+        <p> <label for="edad">Indica la edad</label> <input name="edad" id="edad"
+
+            type="range"> </p>
+        <p> <label for="telefono">Indica el teléfono</label> <input name="telefono"
+
+            id="telefono" type="tel"> </p>
+      </fieldset>
+      <fieldset> <legend> Elije tu envío </legend>
+        <p>¿Qué deseas que te envíe?</p>
+        <input name="deseo" value="rico" id="rico" type="radio"> <label for="rico">Ser
+          rico</label><br>
+        <input name="deseo" value="famoso" id="famoso" type="radio"> <label for="famoso">Ser
+          famoso</label><br>
+        <input name="deseo" value="inteligente" id="inteligente" type="radio"> <label
+
+          for="inteligente">Ser aún más inteligente</label><br>
+        <input name="deseo" value="otro" id="otro" type="radio"> <label for="otro">Otro...</label><br>
+        <p>¿Otra cosa?</p>
+        <input name="belleza" id="belleza" type="checkbox"> <label for="belleza">Belleza</label><br>
+        <input name="habilidad" id="habilidad" type="checkbox"> <label for="hablidad">Habilidad</label><br>
+        <input name="personalidad" id="personalidad" type="checkbox"> <label for="personalidad">Personalidad</label><br>
+        <p> <label for="obser">Especifica cuál:</label><br>
+        </p>
+        <p>¿En qué grado?</p>
+        <select>
+          <optgroup label="Poco">
+            <option value="muy poco">Muy poco</option>
+            <option value="poco">Poco</option>
+          </optgroup> <optgroup label="Mucho">
+            <option value="algo">Algo</option>
+            <option value="mucho">Mucho</option>
+          </optgroup>
+        </select>
+        <p>Especifica cuál:</p>
+        <textarea name="obser" id="obser"></textarea>        
+      </fieldset>
+      <input value="Enviar" type="submit"> </form>
+    <p></p>
+  </body>
+</html>
